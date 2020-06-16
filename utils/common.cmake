@@ -1,3 +1,5 @@
+set(CMAKE_AR "C:/msys64/mingw64/bin/ar.exe")
+
 # prepare_upstream_ex: Checks if upstream is present and is correctly configured at specified path
 macro(prepare_upstream_ex UPSTREAM_BASE_PATH UPSTREAM_WAS_CONFIGURED)
 	# 'stamp' file is updated manually when anything is changed. So including this file will trigger

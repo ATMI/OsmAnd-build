@@ -72,6 +72,9 @@ if not "%OSMAND_CROSSPLATFORM_TARGET%"=="" (
 	set "BAKED_NAME=%TARGET_PREFIX%%OSMAND_CROSSPLATFORM_TARGET%%CPU_SPECIFIC_SUFFIX%%BUILD_TYPE_SUFFIX%.%TARGET_BUILD_TOOL_SUFFIX%"
 )
 set "BAKED_DIR=%SRCLOC%..\..\baked\%BAKED_NAME%"
+echo "=================================="
+echo "=================================="
+echo "=================================="
 echo Baking project files '%BAKED_NAME%'
 if exist "%BAKED_DIR%" (
 	rmdir /S /Q "%BAKED_DIR%"
